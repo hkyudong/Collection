@@ -13,7 +13,7 @@ mysql_query("set names 'utf8'");
 
 
 $showID = $_GET["DATA_ID"];
-echo $_GET["DATA_ID"];
+//echo $_GET["DATA_ID"];
 //$showID = 48;
 $result = mysql_query("select * from information where ID = '$showID' ");
 
@@ -29,10 +29,10 @@ echo "<br />";
 echo '其他原因：'.$row['jy'];
 echo "<br />";
 
-echo '<img src="'.'http://192.168.191.1/xundian/upload/'.$row['imgURL1'].'" width="200" height="200">';
-echo '<img src="'.'http://192.168.191.1/xundian/upload/'.$row['imgURL2'].'" width="200" height="200">';
-echo '<img src="'.'http://192.168.191.1/xundian/upload/'.$row['imgURL3'].'" width="200" height="200">';
-echo '<img src="'.'http://192.168.191.1/xundian/upload/'.$row['imgURL4'].'" width="200" height="200">';
+echo '<img src="'.'http://192.168.191.1/Collection/upload/'.$row['imgURL1'].'" width="200" height="200">';
+echo '<img src="'.'http://192.168.191.1/Collection/upload/'.$row['imgURL2'].'" width="200" height="200">';
+echo '<img src="'.'http://192.168.191.1/Collection/upload/'.$row['imgURL3'].'" width="200" height="200">';
+echo '<img src="'.'http://192.168.191.1/Collection/upload/'.$row['imgURL4'].'" width="200" height="200">';
 
 
 

@@ -6,9 +6,9 @@ require_once ("../config.php");
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="jquery.mobile-1.3.2.min.css">
-<script src="../js/jquery-1.8.3.min.js"></script>
-<script src="../js/jquery.mobile-1.3.2.min.js"></script>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css">
+<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
 </head>
 <body>
 

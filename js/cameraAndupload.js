@@ -223,7 +223,7 @@ function tj()
 	   
 	//options.params = params;
 	  
-	var url = "http://192.168.191.1/xundian/upload/upload_file.php";
+	var url = "http://192.168.191.1/Collection/upload/upload_file.php";
 	var ft = new FileTransfer();
 	// 上传回调
       ft.onprogress = showUploadingProgress;
